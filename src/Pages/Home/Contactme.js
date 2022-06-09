@@ -3,12 +3,12 @@ import React from 'react';
 const Contactme = () => {
     return (
       <div>
-           
+           <h2 className='text-3xl font-semibold text-white mt-20 text-center'>Contact Me</h2>
       <div class="hero min-h-screen ">
   <div class="hero-content flex-col lg:flex-row-reverse">
     <div class="text-center lg:text-left">
-      <h1 class="text-2xl font-bold text-white">Hey There</h1>
-      <p class="py-6 text-xl text-gray-400">Send me an email if you think I can help you out with any of your web related projects.</p>
+      <h1 class="text-2xl font-bold text-white">Hey <span className='text-rose-600'>There</span></h1>
+      <p class="py-6 text-xl text-gray-400">Inform me by sending message, if you think I can help you out with any of your web related projects.</p>
       <div>
          
       </div>

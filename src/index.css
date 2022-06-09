@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.navLink{
+  @apply pl-5 text-white font-semibold
+}
 
 body {
   margin: 0;
