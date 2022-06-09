@@ -3,7 +3,7 @@ import profile from '../../asset/profile-pic.png'
 
 const AboutMe = () => {
     return (
-        <div class=" min-h-screen my-10">
+        <div id='about' class=" min-h-screen my-10">
           <h3 className='text-center mb-20 text-3xl font-semibold text-white'>About Me</h3>
          <div className='grid md:grid-cols-2 justify-center item-center'>
             <div>

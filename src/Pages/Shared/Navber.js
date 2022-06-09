@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 const Navber = () => {
     const menuItems = <>     
             <Link to="/" className='navLink' >Home</Link>
-            <Link to="/" className='navLink'>About Me</Link>
-            <Link to="/" className='navLink'>Project</Link>
-            <Link to="/" className='navLink'>Contact</Link>
+            
+            <a href="#about" className='navLink'>About Me</a>
+            <a href="#service" className='navLink'>Project</a>
+            <a href="#contact" className='navLink'>Contact</a>
             <Link to="/" className='navLink'>Blog</Link>
     </>
     return (
@@ -28,7 +29,7 @@ const Navber = () => {
           </ul>
         </div>
         <div class="navbar-end">
-        <button class="btn btn-outline btn-secondary"><a href="https://drive.google.com/file/d/1DyvSrz9PdKdtbWDV8YpJsedjxBBWS4U4/view?usp=sharing">Download resume</a></button>
+        <button class="btn btn-outline btn-secondary"><a href="https://drive.google.com/file/d/1DyvSrz9PdKdtbWDV8YpJsedjxBBWS4U4/view?usp=sharing" target="_blank" >Download resume</a></button>
         </div>
       </div>
     );
