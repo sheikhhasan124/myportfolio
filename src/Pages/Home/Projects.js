@@ -27,7 +27,7 @@ const Projects = () => {
         }
     ]
     return (
-        <div class="min-h-screen bg-zinc-800  ">
+        <div class="min-h-screen   ">
             <h2 className='text-white text-4xl font-semibold text-center py-10'>My Project</h2>
              <div className='grid md:grid-cols-3 gap-12'>
                {projects.map(project=><Project key={project.id} project={project}></Project>)}    

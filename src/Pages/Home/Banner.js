@@ -3,7 +3,7 @@ import image from '../../asset/archive5.jpg'
 
 const Banner = () => {
     return (
-    <div class="grid md:grid-cols-2  min-h-screen bg-zinc-800 justify-center items-center ">
+    <div class="grid md:grid-cols-2  min-h-screen  justify-center items-center ">
         
        <div className=''>
            <h4 className='text-white text-xl font-semebold'>Hello i'm</h4>
