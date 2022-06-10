@@ -7,8 +7,8 @@ const Banner = () => {
         
        
        <div class="avatar my-12">
-        <div class="w-[300px] mask mask-hexagon">
-        <img className="  w-[500px]  " src={image} alt="img" />
+        <div class="w-[300px] mask mask-hexagon md:ml-0 ml-20">
+        <img className="z-0" src={image} alt="img" />
         </div>
        </div>
        <div className=''>

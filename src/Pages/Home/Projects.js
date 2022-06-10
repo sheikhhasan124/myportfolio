@@ -1,31 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Project from './Project';
-import img1 from '../../asset/solarMotor.PNG'
-import img2 from '../../asset/furnitureStore.PNG'
-import img3 from '../../asset/health.PNG'
+
 
 const Projects = () => {
-    const projects = [
-        {
-            id:1,
-            name:'Solar Motor',
-            img:img1,
-            link:'https://sustainable-energy-tools.web.app/'
-        },
-        {
-            id:2,
-            name:'Furniture Store',
-            img:img2,
-            link:'https://furniture-warehouse-35670.web.app/'
+    const [projects,setProjects]=useState([])
 
-        },
-        {
-            id:3,
-            name:'Health Center',
-            img:img3,
-            link:'https://bien-health-4c6ec.web.app/'
-        }
-    ]
+    useEffect(()=>{
+     fetch('./Data.json')
+     .then(res=>res.json())
+     .then(data=>setProjects(data))
+    },[])
     return (
         <div id='service' class="min-h-screen   ">
             <h2 className='text-white text-4xl font-semibold text-center py-10'>My Project</h2>
